@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03AE279F6B4C4FDEADFC592D /* SFProText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03A05AA0A4174098A5960128 /* SFProText-Regular.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-HubxReactNativeCase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-HubxReactNativeCase.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2FB90D25FAE44134AA2A7B16 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 518AC3EF82064C4DA9609460 /* Rubik-Bold.ttf */; };
+		4FAD23F6B6DC45E2898C7F45 /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D53A4C6D53044B3861C2671 /* Rubik-Black.ttf */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		7D98ADCBAAFF4E939205623E /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA84125294C548DD8EB46D3B /* Rubik-Regular.ttf */; };
+		7F67BE53B50B40DB9F3C53B5 /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36B073A01918423986B948C2 /* Rubik-Light.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9A0D56458F2E44E9BFF04D55 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D530B51A0D24B2FAFFE7E15 /* Rubik-Medium.ttf */; };
+		C2987608B7D2408D9A70216D /* Rubik-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BF71C1DFB744ABEBF03131A /* Rubik-ExtraBold.ttf */; };
 		C5064E302DA34874B00CDF76 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		D206C8EDD5AF4D7D8CB14E20 /* VisbyCF-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = C599D1A919834F5DA77C1029 /* VisbyCF-Heavy.otf */; };
+		DA9E168E8C0646DAA8FCFBFE /* SFProText-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A67F6D00A12C4628864D373A /* SFProText-Semibold.ttf */; };
+		EDB19A94D71C44EBAA6E7CAC /* Rubik-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 021E0E06961E49DE9DFE1CBD /* Rubik-SemiBold.ttf */; };
+		F2D7E4118D7541CC9EB5C6BC /* SFProText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B51F62DFD8CC42D282DF2EF0 /* SFProText-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		021E0E06961E49DE9DFE1CBD /* Rubik-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-SemiBold.ttf"; path = "../assets/fonts/Rubik-SemiBold.ttf"; sourceTree = "<group>"; };
+		03A05AA0A4174098A5960128 /* SFProText-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProText-Regular.ttf"; path = "../assets/fonts/SFProText-Regular.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* HubxReactNativeCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HubxReactNativeCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = HubxReactNativeCase/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = HubxReactNativeCase/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = HubxReactNativeCase/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		1BF71C1DFB744ABEBF03131A /* Rubik-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-ExtraBold.ttf"; path = "../assets/fonts/Rubik-ExtraBold.ttf"; sourceTree = "<group>"; };
+		36B073A01918423986B948C2 /* Rubik-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Light.ttf"; path = "../assets/fonts/Rubik-Light.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-HubxReactNativeCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HubxReactNativeCase.debug.xcconfig"; path = "Target Support Files/Pods-HubxReactNativeCase/Pods-HubxReactNativeCase.debug.xcconfig"; sourceTree = "<group>"; };
+		518AC3EF82064C4DA9609460 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Bold.ttf"; path = "../assets/fonts/Rubik-Bold.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-HubxReactNativeCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HubxReactNativeCase.release.xcconfig"; path = "Target Support Files/Pods-HubxReactNativeCase/Pods-HubxReactNativeCase.release.xcconfig"; sourceTree = "<group>"; };
+		5D53A4C6D53044B3861C2671 /* Rubik-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Black.ttf"; path = "../assets/fonts/Rubik-Black.ttf"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-HubxReactNativeCase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HubxReactNativeCase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D530B51A0D24B2FAFFE7E15 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Medium.ttf"; path = "../assets/fonts/Rubik-Medium.ttf"; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = HubxReactNativeCase/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = HubxReactNativeCase/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A67F6D00A12C4628864D373A /* SFProText-Semibold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProText-Semibold.ttf"; path = "../assets/fonts/SFProText-Semibold.ttf"; sourceTree = "<group>"; };
+		B51F62DFD8CC42D282DF2EF0 /* SFProText-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProText-Bold.ttf"; path = "../assets/fonts/SFProText-Bold.ttf"; sourceTree = "<group>"; };
+		C599D1A919834F5DA77C1029 /* VisbyCF-Heavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyCF-Heavy.otf"; path = "../assets/fonts/VisbyCF-Heavy.otf"; sourceTree = "<group>"; };
+		EA84125294C548DD8EB46D3B /* Rubik-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Regular.ttf"; path = "../assets/fonts/Rubik-Regular.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -75,6 +97,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				C6F285705AAD40779FDC4464 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -96,6 +119,25 @@
 				5709B34CF0A7D63546082F79 /* Pods-HubxReactNativeCase.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C6F285705AAD40779FDC4464 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C599D1A919834F5DA77C1029 /* VisbyCF-Heavy.otf */,
+				518AC3EF82064C4DA9609460 /* Rubik-Bold.ttf */,
+				A67F6D00A12C4628864D373A /* SFProText-Semibold.ttf */,
+				03A05AA0A4174098A5960128 /* SFProText-Regular.ttf */,
+				36B073A01918423986B948C2 /* Rubik-Light.ttf */,
+				6D530B51A0D24B2FAFFE7E15 /* Rubik-Medium.ttf */,
+				5D53A4C6D53044B3861C2671 /* Rubik-Black.ttf */,
+				021E0E06961E49DE9DFE1CBD /* Rubik-SemiBold.ttf */,
+				1BF71C1DFB744ABEBF03131A /* Rubik-ExtraBold.ttf */,
+				EA84125294C548DD8EB46D3B /* Rubik-Regular.ttf */,
+				B51F62DFD8CC42D282DF2EF0 /* SFProText-Bold.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +203,17 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				C5064E302DA34874B00CDF76 /* PrivacyInfo.xcprivacy in Resources */,
+				D206C8EDD5AF4D7D8CB14E20 /* VisbyCF-Heavy.otf in Resources */,
+				2FB90D25FAE44134AA2A7B16 /* Rubik-Bold.ttf in Resources */,
+				DA9E168E8C0646DAA8FCFBFE /* SFProText-Semibold.ttf in Resources */,
+				03AE279F6B4C4FDEADFC592D /* SFProText-Regular.ttf in Resources */,
+				7F67BE53B50B40DB9F3C53B5 /* Rubik-Light.ttf in Resources */,
+				9A0D56458F2E44E9BFF04D55 /* Rubik-Medium.ttf in Resources */,
+				4FAD23F6B6DC45E2898C7F45 /* Rubik-Black.ttf in Resources */,
+				EDB19A94D71C44EBAA6E7CAC /* Rubik-SemiBold.ttf in Resources */,
+				C2987608B7D2408D9A70216D /* Rubik-ExtraBold.ttf in Resources */,
+				7D98ADCBAAFF4E939205623E /* Rubik-Regular.ttf in Resources */,
+				F2D7E4118D7541CC9EB5C6BC /* SFProText-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
