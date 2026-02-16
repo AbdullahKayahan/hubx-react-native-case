@@ -2,9 +2,8 @@ import Text from '@components/Text/Text';
 import React from 'react';
 import { Image, StyleSheet, TouchableOpacity, View, ViewStyle } from 'react-native';
 import { ArrowRightIcon, homeImages } from '@/assets';
-//import { useAppSelector } from '@store/hooks';
 import { useNavigation } from '@react-navigation/native';
-import { BANNER_BG, BANNER_MESSAGE_TEXT, BANNER_CTA_LABEL_TEXT } from '@theme/colors';
+import { BANNER_BACKGROUND, BANNER_TEXT_PRIMARY, BANNER_TEXT_SECONDARY } from '@theme/colors';
 import { Screens } from '@/navigation/constants';
 import { InternalStackParamList } from '@/navigation/types';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
@@ -28,13 +27,13 @@ const PlusBanner: React.FC<Props> = ({ style }) => {
         <TouchableOpacity activeOpacity={0.8} style={[styles.container, style]} onPress={onPress}>
             {<Image style={styles.icon} source={homeImages.envelop} />}
             <View style={styles.textContent}>
-                <Text variant="secondaryBold" fontSize={16} color={BANNER_MESSAGE_TEXT} style={styles.messageText}>
+                <Text variant="secondaryBold" fontSize={16} color={BANNER_TEXT_PRIMARY} style={styles.messageText}>
                     FREE Premium Available
                 </Text>
                 <Text
                     variant="secondaryRegular"
                     fontSize={13}
-                    color={BANNER_CTA_LABEL_TEXT}
+                    color={BANNER_TEXT_SECONDARY}
                     style={styles.ctaLabelText}>
                     Tap to upgrade your account!
                 </Text>
@@ -49,7 +48,7 @@ const styles = StyleSheet.create({
     container: {
         flexDirection: 'row',
         alignItems: 'center',
-        backgroundColor: BANNER_BG,
+        backgroundColor: BANNER_BACKGROUND,
         paddingRight: 12,
         paddingLeft: 20,
         paddingVertical: 13,

@@ -5,15 +5,15 @@ import {
     BottomTabScreenProps,
     createBottomTabNavigator,
 } from '@react-navigation/bottom-tabs';
-import HomeScreen from '../screens/HomeScreen/HomeScreen';
-import DiagnoseScreen from '../screens/DiagnoseScreen/DiagnoseScreen';
-import MyGardenScreen from '../screens/MyGardenScreen/MyGardenScreen';
-import ProfileScreen from '../screens/ProfileScreen/ProfileScreen';
+import HomeScreen from '@screens/HomeScreen/HomeScreen';
+import DiagnoseScreen from '@screens/DiagnoseScreen/DiagnoseScreen';
+import MyGardenScreen from '@screens/MyGardenScreen/MyGardenScreen';
+import ProfileScreen from '@screens/ProfileScreen/ProfileScreen';
 import { Screens } from './constants';
 import { InternalTabParamList } from './types';
 import { ParamListBase } from '@react-navigation/native';
 import Tabbar from './TabBar';
-import Scancreen from '../screens/ScanScreen/ScanScreen';
+import Scancreen from '@screens/ScanScreen/ScanScreen';
 
 const Tab = createBottomTabNavigator<InternalTabParamList>();
 

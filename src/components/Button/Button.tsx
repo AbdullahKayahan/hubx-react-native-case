@@ -1,8 +1,8 @@
 import React from 'react';
 import { ActivityIndicator, StyleSheet, TouchableOpacity, ViewStyle } from 'react-native';
 
-import { MAIN_COLOR, MAIN_TEXT_COLOR_70, WHITE } from '@theme/colors';
-import Text from '../Text/Text';
+import { PRIMARY_GREEN, TEXT_SECONDARY, WHITE } from '@theme/colors';
+import Text from '@components/Text/Text';
 
 type Props = {
     onPress: () => void;
@@ -21,7 +21,7 @@ const Button: React.FC<Props> = ({ label, onPress, style, loading = false }) => 
                 style={{ opacity: Number(!loading), lineHeight: 24 }}>
                 {label}
             </Text>
-            {loading && <ActivityIndicator color={MAIN_TEXT_COLOR_70} style={styles.loadingIndicator} />}
+            {loading && <ActivityIndicator color={TEXT_SECONDARY} style={styles.loadingIndicator} />}
         </TouchableOpacity>
     );
 };
@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
         borderRadius: 12,
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: MAIN_COLOR,
+        backgroundColor: PRIMARY_GREEN,
         height: 56,
     },
 

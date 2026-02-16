@@ -1,10 +1,10 @@
 import React from 'react';
 import { View, StyleSheet, TouchableOpacity, Alert } from 'react-native';
-import { useAppDispatch } from '../../store/hooks';
-import { resetOnboarding } from '../../store/OnboardingReducer';
-import { resetSubscription } from '../../store/SubscriptionReducer';
+import { useAppDispatch } from '@/store/hooks';
+import { resetOnboarding } from '@/store/OnboardingReducer';
+import { resetSubscription } from '@/store/SubscriptionReducer';
 import Text from '@/components/Text/Text';
-import { WHITE } from '../../theme/colors';
+import { WHITE } from '@/theme/colors';
 
 const ProfileScreen = () => {
     const dispatch = useAppDispatch();

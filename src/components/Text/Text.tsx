@@ -1,17 +1,17 @@
-import { MAIN_TEXT_COLOR } from '@theme/colors';
+import { TEXT_PRIMARY } from '@theme/colors';
 import React from 'react';
-import { StyleProp, StyleSheet, Text } from 'react-native';
+import { StyleSheet, Text as RNText } from 'react-native';
 import { CustomTextProps, FontStyles } from './type';
 
-const UIText: React.FC<CustomTextProps> = ({ variant, children, color, style, fontSize, ...otherProps }) => {
+const Text: React.FC<CustomTextProps> = ({ variant, children, color, style, fontSize, ...otherProps }) => {
     return (
-        <Text style={[FontStyles[variant], styles.text, style, { color, fontSize }]} {...otherProps}>
+        <RNText style={[FontStyles[variant], styles.text, style, { color, fontSize }]} {...otherProps}>
             {children}
-        </Text>
+        </RNText>
     );
 };
-export default UIText;
+export default Text;
 
 const styles = StyleSheet.create({
-    text: { color: MAIN_TEXT_COLOR },
+    text: { color: TEXT_PRIMARY },
 });

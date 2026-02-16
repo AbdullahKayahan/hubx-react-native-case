@@ -5,8 +5,8 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { WebView } from 'react-native-webview';
 
 import { CloseIcon } from '@/assets';
-import LoadingContainer from '../HomeScreen/components/LoadingContainer';
-import { WHITE } from '../../theme/colors';
+import LoadingContainer from '@screens/HomeScreen/components/LoadingContainer';
+import { WHITE } from '@theme/colors';
 
 type Props = StaticScreenProps<{
     blogUrl: string;

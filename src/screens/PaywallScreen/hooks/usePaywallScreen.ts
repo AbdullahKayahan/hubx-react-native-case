@@ -6,9 +6,9 @@ import { completeOnboarding } from '@/store/OnboardingReducer';
 import { Screens } from '@/navigation/constants';
 import { getActiveStack } from '@/navigation/RootNavigation';
 import { subscribe } from '@/store/SubscriptionReducer';
-import Store from '@/store/Store';
+import store from '@/store/Store';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import { RootStackParamList } from '../../../navigation/types';
+import { RootStackParamList } from '@navigation/types';
 
 const packageIds = ['plantapp.monthly.direct', 'plantapp.yearly.ft'] as const;
 
@@ -69,7 +69,7 @@ const usePaywallScreen: usePaywallScreen = () => {
             return;
         }
 
-        if (Store.getState().onboarding.completed) {
+        if (store.getState().onboarding.completed) {
             goBack();
         }
 

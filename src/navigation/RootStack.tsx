@@ -10,13 +10,13 @@ import { RootStackParamList } from './types';
 import { Screens } from './constants';
 import { navigationRef } from './RootNavigation';
 import InternalStack from './InternalStack';
-import Store from '../store/Store';
+import store from '@/store/Store';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
 const RootStack = () => {
     const { screenBuilder } = useScreenBuilder();
-    const onboardingCompleted = Store.getState().onboarding.completed;
+    const onboardingCompleted = store.getState().onboarding.completed;
     const initialRouteName = onboardingCompleted ? Screens.INTERNAL_TAB : Screens.ONBOARDING;
     return (
         <NavigationContainer ref={navigationRef}>

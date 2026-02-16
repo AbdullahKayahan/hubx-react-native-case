@@ -2,15 +2,15 @@ import React from 'react';
 import { Alert, Image, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import Text from '@components/Text/Text';
-import { MAIN_TEXT_COLOR_70, WHITE } from '@theme/colors';
+import { TEXT_SECONDARY, WHITE } from '@theme/colors';
 import onboardingImages from '@assets/onboarding';
 import Button from '@components/Button/Button';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { Screens } from '@navigation/constants';
 import { ExternalStackParamList } from '@navigation/types';
-import { FontStyles } from '../../components/Text/type';
-import { ParsedText } from '../../components';
+import { FontStyles } from '@/components/Text/type';
+import { ParsedText } from '@/components';
 
 const OnboardingWelcomeScreen: React.FC = () => {
     const { bottom: bottomInset, top: topInset } = useSafeAreaInsets();
@@ -36,7 +36,7 @@ const OnboardingWelcomeScreen: React.FC = () => {
                 Welcome to *PlantApp*
             </ParsedText>
 
-            <Text variant="primaryRegular" fontSize={16} style={styles.descriptionText} color={MAIN_TEXT_COLOR_70}>
+            <Text variant="primaryRegular" fontSize={16} style={styles.descriptionText} color={TEXT_SECONDARY}>
                 Identify more than 3000+ plants and 88% accuracy.
             </Text>
         </View>
@@ -49,7 +49,7 @@ const OnboardingWelcomeScreen: React.FC = () => {
                 variant="primaryRegular"
                 fontSize={11}
                 style={styles.agreementsDescriptiontext}
-                color={MAIN_TEXT_COLOR_70}
+                color={TEXT_SECONDARY}
                 parse={[
                     {
                         pattern: new RegExp('Terms of Use'),
@@ -132,8 +132,5 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         lineHeight: 15,
         letterSpacing: 0.07,
-    },
-    underlineText: {
-        textDecorationLine: 'underline',
     },
 });

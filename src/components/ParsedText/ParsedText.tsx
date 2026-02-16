@@ -1,7 +1,7 @@
 import React from 'react';
 import { TextProps, TextStyle, StyleSheet, StyleProp } from 'react-native';
 import ParsedText from 'react-native-parsed-text';
-import { CustomTextProps } from '../Text/type';
+import { CustomTextProps } from '@components/Text/type';
 
 export type ParseType = {
     pattern: string | RegExp;
@@ -11,13 +11,13 @@ export type ParseType = {
     style: StyleProp<TextStyle>;
 };
 
-export interface IParsedText extends CustomTextProps {
+export interface IParsedTextProps extends CustomTextProps {
     parse: ParseType[];
     lineHeight?: number;
     childrenProps?: TextProps;
 }
 
-const CustomParsedText: React.FC<IParsedText> = (props) => {
+const CustomParsedText: React.FC<IParsedTextProps> = (props) => {
     const flattenedStyle = StyleSheet.flatten(props.style);
     const lineHeight = props.lineHeight ?? (flattenedStyle as TextStyle)?.lineHeight;
 

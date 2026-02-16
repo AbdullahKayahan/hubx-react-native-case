@@ -1,5 +1,5 @@
 import Text from '@components/Text/Text';
-import { MAIN_COLOR, WHITE, WHITE_30, WHITE_8, WHITE_70 } from '@theme/colors';
+import { PRIMARY_GREEN, WHITE, WHITE_30, WHITE_8, WHITE_70 } from '@theme/colors';
 import React from 'react';
 import { Image, StyleSheet, TouchableOpacity, View, ViewStyle } from 'react-native';
 import { paywallImages } from '@/assets';
@@ -28,7 +28,7 @@ const PackageItem: React.FC<Props> = ({
     const shouldDisplayTag = isSelected && !!tag;
     const containerStyle: ViewStyle = {
         borderWidth: isSelected ? 1.5 : 0.5,
-        borderColor: isSelected ? MAIN_COLOR : WHITE_30,
+        borderColor: isSelected ? PRIMARY_GREEN : WHITE_30,
         paddingHorizontal: isSelected ? 13.5 : 14.5,
         paddingVertical: isSelected ? 11.5 : 12.5,
     };
@@ -114,7 +114,7 @@ const styles = StyleSheet.create({
         width: 24,
         aspectRatio: 1,
         borderRadius: 24,
-        backgroundColor: MAIN_COLOR,
+        backgroundColor: PRIMARY_GREEN,
         justifyContent: 'center',
         alignItems: 'center',
     },
@@ -139,7 +139,7 @@ const styles = StyleSheet.create({
         paddingRight: 9,
         top: -1,
         right: 0,
-        backgroundColor: MAIN_COLOR,
+        backgroundColor: PRIMARY_GREEN,
         borderBottomStartRadius: 20,
     },
     tagText: {

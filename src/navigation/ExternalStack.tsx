@@ -5,8 +5,8 @@ import {
     NativeStackOptionsArgs,
 } from '@react-navigation/native-stack';
 
-import WelcomeScreen from '../screens/Onboarding/WelcomeScreen';
-import OnboardingCarouselScreen from '../screens/Onboarding/OnboardingCarouselScreen';
+import WelcomeScreen from '@screens/Onboarding/WelcomeScreen';
+import OnboardingCarouselScreen from '@screens/Onboarding/OnboardingCarouselScreen';
 import { Screens } from './constants';
 import { ExternalStackParamList } from './types';
 import PaywallScreen from '@/screens/PaywallScreen/PaywallScreen';

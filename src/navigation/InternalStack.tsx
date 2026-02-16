@@ -5,16 +5,16 @@ import {
     NativeStackOptionsArgs,
 } from '@react-navigation/native-stack';
 
-import WelcomeScreen from '../screens/Onboarding/WelcomeScreen';
-import OnboardingCarouselScreen from '../screens/Onboarding/OnboardingCarouselScreen';
+import WelcomeScreen from '@screens/Onboarding/WelcomeScreen';
+import OnboardingCarouselScreen from '@screens/Onboarding/OnboardingCarouselScreen';
 import { Screens } from './constants';
 import { InternalStackParamList } from './types';
 import PaywallScreen from '@/screens/PaywallScreen/PaywallScreen';
 import TermsOfUseScreen from '@/screens/TermsOfUseScreen/TermsOfUseScreen';
 import PrivacyPolicyScreen from '@/screens/PrivacyPolicyScreen/PrivacyPolicyScreen';
 import HomeTabNavigator from './HomeTabNavigator';
-import Scancreen from '../screens/ScanScreen/ScanScreen';
-import ArticleDetailScreen from '../screens/ArticleDetailScreen/ArticleDetailScreen';
+import Scancreen from '@screens/ScanScreen/ScanScreen';
+import ArticleDetailScreen from '@screens/ArticleDetailScreen/ArticleDetailScreen';
 const Stack = createNativeStackNavigator<InternalStackParamList>();
 
 const ExternalStack = () => {

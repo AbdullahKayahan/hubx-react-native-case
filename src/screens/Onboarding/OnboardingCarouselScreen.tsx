@@ -5,13 +5,13 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { useSharedValue } from 'react-native-reanimated';
 import { useNavigation } from '@react-navigation/native';
-import { ONBOARDING_WALKTHROUGH_DOT_BG, MAIN_COLOR, WHITE, MAIN_TEXT_COLOR } from '@theme/colors';
-import { Screens } from '../../navigation/constants';
+import { DOT_INACTIVE, TEXT_PRIMARY } from '@theme/colors';
+import { Screens } from '@navigation/constants';
 import IdentifyItem from './CarouselItems/IdentifyItem';
 import CareGuideItem from './CarouselItems/CareGuideItem';
 import Button from '@/components/Button/Button';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import { ExternalStackParamList } from '../../navigation/types';
+import { ExternalStackParamList } from '@navigation/types';
 
 const DATA = [...new Array(3)];
 
@@ -89,13 +89,13 @@ const styles = StyleSheet.create({
     },
     activeDot: {
         borderRadius: 50,
-        backgroundColor: MAIN_TEXT_COLOR,
+        backgroundColor: TEXT_PRIMARY,
         width: 10,
         height: 10,
     },
     dot: {
         borderRadius: 50,
-        backgroundColor: ONBOARDING_WALKTHROUGH_DOT_BG,
+        backgroundColor: DOT_INACTIVE,
         width: 6,
         height: 6,
     },

@@ -3,19 +3,19 @@ import { View, StyleSheet, ScrollView, TouchableOpacity, Dimensions, Image, Aler
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useNavigation } from '@react-navigation/native';
 import { CloseIcon, paywallImages, PaywallScanIcon, SpeedMeterIcon, PlantIcon } from '@/assets';
-import { PAYWALL_BACKGROUND_COLOR, WHITE, WHITE_50, WHITE_52, WHITE_70 } from '../../theme/colors';
+import { PAYWALL_BACKGROUND, WHITE, WHITE_50, WHITE_52, WHITE_70 } from '@theme/colors';
 import Text from '@/components/Text/Text';
-import Button from '../../components/Button/Button';
+import Button from '@components/Button/Button';
 import PackageItem from './components/PackageItem';
-import FeatureCard, { IPaywallFeatureCardProps } from './components/FeatureCard';
+import FeatureCard, { IFeatureCardProps } from './components/FeatureCard';
 import usePaywallScreen from './hooks/usePaywallScreen';
-import { ParsedText } from '../../components';
-import { Screens } from '../../navigation/constants';
-import { ExternalStackParamList, InternalStackParamList } from '../../navigation/types';
+import { ParsedText } from '@/components';
+import { Screens } from '@navigation/constants';
+import { ExternalStackParamList, InternalStackParamList } from '@navigation/types';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import { getActiveStack } from '../../navigation/RootNavigation';
+import { getActiveStack } from '@navigation/RootNavigation';
 
-const featuresData: IPaywallFeatureCardProps[] = [
+const featuresData: IFeatureCardProps[] = [
     { icon: <PaywallScanIcon />, title: 'Unlimited', description: 'Plant Identify' },
     { icon: <SpeedMeterIcon />, title: 'Faster', description: 'Process' },
     { icon: <PlantIcon />, title: 'Detailed', description: 'Plant care' },
@@ -175,7 +175,7 @@ const PaywallScreen = () => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: PAYWALL_BACKGROUND_COLOR,
+        backgroundColor: PAYWALL_BACKGROUND,
     },
     imageContainer: {
         width: '100%',

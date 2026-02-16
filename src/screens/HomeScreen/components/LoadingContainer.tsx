@@ -1,4 +1,4 @@
-import { MAIN_COLOR, WHITE } from '@theme/colors';
+import { PRIMARY_GREEN, WHITE } from '@theme/colors';
 import React from 'react';
 import { View, ActivityIndicator, StyleSheet, ViewStyle } from 'react-native';
 
@@ -8,7 +8,7 @@ type Props = {
 
 const LoadingContainer: React.FC<Props> = ({ style }) => (
     <View style={[styles.loadingContainer, style]}>
-        <ActivityIndicator color={MAIN_COLOR} size="large" />
+        <ActivityIndicator color={PRIMARY_GREEN} size="large" />
     </View>
 );
 

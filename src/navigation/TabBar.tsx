@@ -5,7 +5,7 @@ import { BottomTabBarProps } from '@react-navigation/bottom-tabs';
 
 import { SvgProps } from 'react-native-svg';
 
-import { MAIN_COLOR, WHITE, GRAY_74 } from '@theme/colors';
+import { PRIMARY_GREEN, WHITE, GRAY_74 } from '@theme/colors';
 import { Screens } from './constants';
 import Text from '@/components/Text/Text';
 import { HomeIcon, DiagnoseIcon, MyGardenIcon, ProfileIcon, ScanIcon } from '@/assets';
@@ -39,7 +39,7 @@ const Tabbar: React.FC<BottomTabBarProps> = ({ state, descriptors, navigation })
                 if (typeof label === 'function') {
                     labelText = label({
                         focused: isFocused,
-                        color: isFocused ? MAIN_COLOR : GRAY_74,
+                        color: isFocused ? PRIMARY_GREEN : GRAY_74,
                         position: 'below-icon',
                         children: route.name,
                     });
@@ -50,7 +50,7 @@ const Tabbar: React.FC<BottomTabBarProps> = ({ state, descriptors, navigation })
                 const Icon = TabBarIconMapper[route.name as Screens];
                 if (!Icon) return null;
 
-                const color = isFocused ? MAIN_COLOR : GRAY_74;
+                const color = isFocused ? PRIMARY_GREEN : GRAY_74;
                 const shouldInsertTabbarButton = index === 1;
 
                 const onPress = () => {

@@ -1,7 +1,7 @@
 import Text from '@components/Text/Text';
 import React from 'react';
 import { Image, StyleSheet, TouchableOpacity } from 'react-native';
-import { BLUE_BORDER_10 } from '@theme/colors';
+import { CARD_BORDER } from '@theme/colors';
 
 type Props = {
     title: string;
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
         height: 152,
         flex: 0.5,
         borderWidth: 0.5,
-        borderColor: BLUE_BORDER_10,
+        borderColor: CARD_BORDER,
         borderRadius: 12,
         overflow: 'hidden',
     },

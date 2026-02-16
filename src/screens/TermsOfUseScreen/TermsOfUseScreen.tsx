@@ -1,8 +1,8 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import { Button } from '../../components';
+import { Button } from '@/components';
 import { useNavigation } from '@react-navigation/native';
-import { ExternalStackParamList } from '../../navigation/types';
+import { ExternalStackParamList } from '@navigation/types';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 
 const TermsOfUseScreen = () => {

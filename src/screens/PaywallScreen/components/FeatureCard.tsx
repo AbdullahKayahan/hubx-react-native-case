@@ -4,13 +4,13 @@ import React from 'react';
 import { Image, StyleSheet, View } from 'react-native';
 import { paywallImages } from '@/assets';
 
-export interface IPaywallFeatureCardProps {
+export interface IFeatureCardProps {
     title: string;
     description: string;
     icon: React.ReactNode;
 }
 
-const FeatureCard: React.FC<IPaywallFeatureCardProps> = ({ title, description, icon }) => {
+const FeatureCard: React.FC<IFeatureCardProps> = ({ title, description, icon }) => {
     return (
         <View style={styles.container}>
             <Image source={paywallImages.cardBackground} style={styles.backgroundImage} />

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { TEXT_SHADOW_COLOR_25 } from '@theme/colors';
+import { SHADOW_TEXT } from '@theme/colors';
 import { onboardingImages } from '@/assets';
 import { ParsedText } from '@/components';
 import { FontStyles } from '@components/Text/type';
@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
         alignSelf: 'baseline',
     },
     titleText: {
-        textShadowColor: TEXT_SHADOW_COLOR_25,
+        textShadowColor: SHADOW_TEXT,
         textShadowOffset: { width: 0, height: 4 },
         textShadowRadius: 4,
         fontWeight: '500',

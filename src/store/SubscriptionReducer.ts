@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { deleteItem, getItem, setItem } from '@/services/DeviceStorageService';
 
-const SubscriptionReducer = createSlice({
+const subscriptionReducer = createSlice({
     name: 'subscription',
     initialState: { status: getItem('subscription')?.status ?? 'free' },
     reducers: {
@@ -16,5 +16,5 @@ const SubscriptionReducer = createSlice({
     },
 });
 
-export const { subscribe, resetSubscription } = SubscriptionReducer.actions;
-export default SubscriptionReducer.reducer;
+export const { subscribe, resetSubscription } = subscriptionReducer.actions;
+export default subscriptionReducer.reducer;
