@@ -33,7 +33,7 @@ const OnboardingWalkthroughScreen: React.FC = () => {
 
     const renderFooter = () => (
         <View style={[styles.footer, { paddingBottom: bottomInset + 55 }]}>
-            <Button label="Try Colorize" onPress={onContinuePress} />
+            <Button label="Continue" onPress={onContinuePress} />
             <Pagination.Custom
                 progress={progress}
                 data={DATA}

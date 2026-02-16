@@ -57,7 +57,7 @@ const PaywallScreen = () => {
     const renderFooter = () => (
         <>
             <Button
-                label={freeTrialAvailable ? `Try free for ${freeTrialDays} days` : 'Get Plus'}
+                label={freeTrialAvailable ? `Try free for ${freeTrialDays} days` : 'Get Premium'}
                 style={styles.ctaButton}
                 onPress={onPurchasePress}
                 loading={isPurchasing}
