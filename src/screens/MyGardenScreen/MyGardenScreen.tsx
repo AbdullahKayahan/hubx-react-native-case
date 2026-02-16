@@ -1,10 +1,13 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, StyleSheet } from 'react-native';
+import Text from '@/components/Text/Text';
 
 const MyGardenScreen = () => {
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>My Garden</Text>
+            <Text variant="secondaryBold" fontSize={24} style={styles.title}>
+                Terms of Use
+            </Text>
         </View>
     );
 };

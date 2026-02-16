@@ -1,10 +1,13 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, StyleSheet } from 'react-native';
+import Text from '@/components/Text/Text';
 
 const ScanScreen = () => {
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Scan</Text>
+            <Text variant="secondaryBold" fontSize={24} style={styles.title}>
+                Scan
+            </Text>
         </View>
     );
 };

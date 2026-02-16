@@ -1,10 +1,13 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, StyleSheet } from 'react-native';
+import Text from '@/components/Text/Text';
 
 const DiagnoseScreen = () => {
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Diagnose</Text>
+            <Text variant="secondaryBold" fontSize={24} style={styles.title}>
+                Diagnose
+            </Text>
         </View>
     );
 };
